@@ -1,0 +1,247 @@
+
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Connecting font style Open-Sans */
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* Connecting font style Raleway */
+.raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: #F5F8FF;
+}
+
+/* Inter font style */
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Reuseable button Style */
+.global-button{
+    padding: 12px 36px;
+    border: none;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+}
+
+.global-button:hover{
+    background-color: rgb(165, 14, 14);
+    transition: background-color 0.7s;
+}
+
+
+/* Nav bar style start */
+.nav{
+    width: 100%;
+    height: 698px;
+    background-image: url("./Assets/Hero-bg.png");
+    background-repeat: no-repeat;
+}
+
+.nav-title{
+    display: flex;
+    max-width: 1140px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+    text-align: center;
+    margin: 0 auto;
+}
+
+nav div h1{
+    font-size: 34px;
+    color: #4E47FF;
+}
+/* Nav bar style end */
+
+
+/* Hero section start */
+.hero-section{
+    max-width: 1140px;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+    text-align: center;
+    margin: 150px auto;
+}
+.hero-section h3{
+    font-size: 65px;
+    font-weight: 800;
+    color: #252432;
+}
+/* Hero section End */
+
+
+/* Action section start */
+.action-section{
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    margin: 115px auto;
+}
+.action-section div img{
+    border-radius: 48px;
+}
+.action-text{
+    text-align: start;
+    width: 512px;
+}
+.action-text h3{
+    font-size: 42px;
+    color: #252432;
+    font-weight: 700;
+    margin: 25px 0;
+}
+.action-text p{
+    font-size: 24px;
+    color: #252432;
+    margin: 25px 0;
+}
+/* Action section start */
+
+
+/* productive-user section style start */
+.productive-user{
+    max-width: 1140px;
+    background-color: rgba(78, 71, 255, 0.1);
+    justify-content: center;
+    margin: 0px auto;
+    text-align: center;
+    margin-bottom: 137px;
+    border-radius: 24px;
+}
+
+.productive-user-main h5{
+    font-size: 38px;
+    color: #252432;
+}
+
+.productive-user-main{
+    padding: 50px 142px;
+}
+.productive-user-main .details{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.productive-user-main .details h2{
+     font-family: "Inter", sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    color: #4E47FF;
+}
+.productive-user-main .details p{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.5);
+}
+/* productive-user section style end */
+
+
+
+
+
+
+
+/* News Letter section start */
+.newsLetter{
+    display: flex;
+    gap: 115px;
+    margin: 0 auto;
+
+    justify-content: space-between;
+    max-width: 1140px;
+}
+.newsLetter div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.newsLetter div h1{
+    font-size: 97px;
+    font-weight: 700px;
+}
+
+form {
+    margin: 70px 0;
+}
+
+label{
+    font-size: 18px;
+    font-weight: 700;
+}
+input, textarea{
+    width: 497px;
+    font-family: "Inter", sans-serif ;
+    font-size: 20px;
+    padding: 20px 35px;
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    border-color: #FFFFFF;
+    margin-top: 10px;
+}
+.submit{
+    width: 100%;
+}
+
+
+/* News Letter section start */
+
+/* Footer style start  */
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 100px 0;
+    background-color: #fff;
+}
+
+.footer-head h1{
+    font-size: 100px;
+    color: #4E47FF;
+}
+.footer-head p{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 16px;
+    color: #8987A1;
+    max-width: 530px;
+    text-wrap: wrap;
+    padding: 8px;
+}
+
+.footer-bottom{
+    display: flex;
+    max-width: 530px;
+    list-style: none;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+
+.footer-bottom li a {
+    text-decoration: none;
+    color: #8987A1;
+}
+/* Footer style End  */
+

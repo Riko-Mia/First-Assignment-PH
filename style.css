@@ -206,6 +206,7 @@ nav div h1{
     font-size: 15px;
     color: rgba(179, 179, 179, 1);
     padding: 0;
+    margin-bottom: -25px;
 }
 .cart-home{
     display: flex;

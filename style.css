@@ -112,7 +112,7 @@ nav div h1{
 }
 .action-text p{
     font-size: 24px;
-    color: #252432;
+    color: rgba(37, 36, 50, 0.5);
     margin: 25px 0;
 }
 /* Action section start */

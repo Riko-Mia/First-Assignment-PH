@@ -213,13 +213,34 @@ nav div h1{
     justify-content: space-between;
     text-align: left;
 }
-
-
-
-
 /* Cart section end */
 
 
+/* Extra section start */
+.extra{
+    max-width: 1140px;
+    justify-content: center;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 14px;
+    margin: 75px auto;
+    padding: 71px 0;
+}
+.extra h1{
+    font-size: 50px;
+    margin: 20px;
+}
+.extra p{
+    font-size: 16px;
+    margin: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.extra img{
+    margin-top: 20px;
+    border-radius: 45px;
+}
+
+/* Extra section End */
 
 
 
